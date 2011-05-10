@@ -1,0 +1,4 @@
+*.pyc
+*.wpr
+webapps/django/project/local_settings.py
+webapps/django/project/*.sqlite

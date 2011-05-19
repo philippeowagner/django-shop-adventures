@@ -49,6 +49,15 @@ MIDDLEWARE_CLASSES = [
 
 ROOT_URLCONF = 'project.urls'
 
+SHOP_SHIPPING_FLAT_RATE = '30'
+SHOP_SHIPPING_BACKENDS = [
+    'shop.shipping.backends.flat_rate.FlatRateShipping',
+]
+SHOP_PAYMENT_BACKENDS = [
+    'shop.payment.backends.pay_on_delivery.PayOnDeliveryBackend'
+]
+
+
 INSTALLED_APPS = [
     # django apps
     'django.contrib.auth',

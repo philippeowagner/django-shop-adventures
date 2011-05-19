@@ -6,6 +6,9 @@ class Category(models.Model):
     """Master data: Names of categories."""
     name = models.CharField(max_length=256)
 
+    class Meta:
+        ordering = ['name']
+
     def __unicode__(self):
         return self.name
 
@@ -13,6 +16,9 @@ class Category(models.Model):
 class Distributor(models.Model):
     """Master data: Information about distributors."""
     name = models.CharField(max_length=256)
+
+    class Meta:
+        ordering = ['name']
 
     def __unicode__(self):
         return self.name

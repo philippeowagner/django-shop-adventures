@@ -70,8 +70,10 @@ INSTALLED_APPS = [
     # django-shop apps
     'polymorphic',
     'shop',
+    'shop.addressmodel',
     # useful 3rd party apps
     'south',
     # Our own apps
     'myshop', # the project we just created
+    'shop_simplecategories',
 ]

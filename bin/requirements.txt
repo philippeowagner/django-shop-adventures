@@ -2,3 +2,4 @@ django==1.3
 south
 django-shop
 PIL
+-e git+git://github.com/chrisglass/django-shop-simplecategories.git

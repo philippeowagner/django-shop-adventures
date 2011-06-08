@@ -8,6 +8,7 @@ The blog posts for this repository can be found here:
   * `django-shop Adventures: Installation <http://martinbrochhaus.de/post/5356572769/django-shop-adventures-installation>`_
   * `django-shop Adventures: Creating Products and Admin <http://martinbrochhaus.de/post/5612348594/django-shop-adventures-creating-products-and-admin>`_
   * `django-shop Adventures: Shipping and Payment <http://martinbrochhaus.de/post/5634225072/django-shop-adventures-shipping-and-payment>`_
+  * `django-shop Adventures: Simple categories <http://martinbrochhaus.de/post/6311884550/django-shop-adventures-simple-categories>`_
 
 License
 =======

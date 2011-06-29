@@ -56,6 +56,9 @@ SHOP_SHIPPING_BACKENDS = [
 SHOP_PAYMENT_BACKENDS = [
     'shop.payment.backends.pay_on_delivery.PayOnDeliveryBackend'
 ]
+SHOP_CART_MODIFIERS = [
+    'shop_simplevariations.cart_modifier.ProductOptionsModifier'
+]
 
 
 INSTALLED_APPS = [
@@ -71,9 +74,10 @@ INSTALLED_APPS = [
     'polymorphic',
     'shop',
     'shop.addressmodel',
+    'shop_simplecategories',
+    'shop_simplevariations',
     # useful 3rd party apps
     'south',
     # Our own apps
     'myshop', # the project we just created
-    'shop_simplecategories',
 ]

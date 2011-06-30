@@ -49,15 +49,17 @@ MIDDLEWARE_CLASSES = [
 
 ROOT_URLCONF = 'project.urls'
 
-SHOP_SHIPPING_FLAT_RATE = '30'
+SHOP_SHIPPING_FLAT_RATE = '6.50'
 SHOP_SHIPPING_BACKENDS = [
-    'shop.shipping.backends.flat_rate.FlatRateShipping',
+    'myshop.shipping.SkipShippingBackend',
 ]
 SHOP_PAYMENT_BACKENDS = [
     'shop.payment.backends.pay_on_delivery.PayOnDeliveryBackend'
 ]
 SHOP_CART_MODIFIERS = [
-    'shop_simplevariations.cart_modifier.ProductOptionsModifier'
+    'shop_simplevariations.cart_modifier.ProductOptionsModifier',
+    'myshop.modifiers.FixedShippingCosts',
+    'myshop.modifiers.FixedTaxRate',
 ]
 
 

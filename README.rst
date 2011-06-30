@@ -10,6 +10,7 @@ The blog posts for this repository can be found here:
   * `django-shop Adventures: Shipping and Payment <http://martinbrochhaus.de/post/5634225072/django-shop-adventures-shipping-and-payment>`_
   * `django-shop Adventures: Simple categories <http://martinbrochhaus.de/post/6311884550/django-shop-adventures-simple-categories>`_
   * `django-shop Adventures: Simple variations <http://martinbrochhaus.de/post/7039207271/django-shop-adventures-simple-variations>`_
+  * `django-shop Adventures: Taxes and flat rate shipping <http://martinbrochhaus.de/post/7066110905/django-shop-adventures-taxes-and-flat-rate-shipping>`_
 
 License
 =======
